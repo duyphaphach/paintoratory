@@ -1,0 +1,52 @@
+{
+  "name": "paintoratory",
+  "version": "0.1.0",
+  "private": true,
+  "author": "alex genetica <duy.pham@genefriendway.com>",
+  "license": "MIT",
+  "scripts": {
+    "develop": "npx next dev -p 3500",
+    "build": "npx next build",
+    "start": "npx next start -p 3300",
+    "lint": "npx next lint .",
+    "postinstall": "npx patch-package"
+  },
+  "dependencies": {
+    "@next/font": "13.1.6",
+    "@reduxjs/toolkit": "1.8.6",
+    "axios": "1.3.2",
+    "cookie-parser": "1.4.6",
+    "formik": "2.2.9",
+    "humps": "2.0.1",
+    "next": "13.1.6",
+    "next-http-proxy-middleware": "1.2.5",
+    "next-redux-wrapper": "8.1.0",
+    "next-seo": "5.15.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-redux": "8.0.5",
+    "redux": "4.2.1",
+    "redux-persist": "6.0.0",
+    "yup": "1.0.0"
+  },
+  "devDependencies": {
+    "dotenv": "16.0.3",
+    "@types/humps": "2.0.2",
+    "@types/node": "18.13.0",
+    "@types/react": "18.0.27",
+    "@types/react-dom": "18.0.10",
+    "@types/react-redux": "7.1.20",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "eslint": "^8.0.1",
+    "eslint-config-standard-with-typescript": "^34.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-react": "^7.32.2",
+    "patch-package": "^6.5.1",
+    "postinstall-postinstall": "^2.1.0",
+    "prop-types": "^15.8.1",
+    "sass": "1.58.3",
+    "typescript": "*"
+  }
+}
